@@ -4,7 +4,7 @@
 在完成挑战一的bot框架和LUIS之后，客户希将一些FAQ的问答输入Bot，让Bot能够直接回答用户一些常见问题。在微软的认知服务中，QnA Maker API提供了基于FAQ语料库问答调用，请帮助该客户使用QnA Maker集成到现有Bot中，满足业务的需求。
 ## 挑战
 
-集成认知服务QnA Maker需要的开发环境:
+### 集成认知服务QnA Maker需要的开发环境:
 
 *	Global Azure 订阅
 * (可选) 使用API创建和维护知识库，准备开发语言（C#/Go/Java/Node.js/Python）所需IDE

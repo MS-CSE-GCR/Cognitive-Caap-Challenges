@@ -5,7 +5,7 @@
 
 ## 挑战
 
-对话机器人和认知服务挑战需要的开发环境:
+### 对话机器人和认知服务挑战需要的开发环境:
 
 *	Global Azure 订阅
 * LUIS(Language understading intelligence service)帐号 (与Azure订阅帐号保持一致即可)
