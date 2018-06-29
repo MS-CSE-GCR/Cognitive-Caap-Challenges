@@ -7,9 +7,9 @@ Bot Framework 是微软公司所提供的简化编写对话机器人的框架，
 ### 挑战一：使用BOT SDK和LUIS完成对话机器人
 基于BOT SDK搭建一套可执行的对话机器人框架，联接微软认知服务自然言语理解服务LUIS,并在本地Emulator和网页Test页面展示对话。
 ### 挑战二：联接Q&A Maker的对话服务
-使用微软认知服务来QnA Maker 结合Bot Framework，完成FAQ问题的集成。
+使用微软认知服务中的Q&A Maker, 结合Bot Framework，赋予Bot基于FAQ问题库智能交互的能力。
 ### 挑战三：集成语音服务(Speech Service)
-体验联接微软认知服务中的Speech Service中的Custom Speech以及Speaker Recognition 服务，可以集成在服务的前端或者后端 （本模块也可以单独尝试不依赖于Bot项目）
+学习联接微软认知服务中的Speech Service中的Custom Speech以及Speaker Recognition 服务，可以集成在服务的前端或者后端 （本模块也可以单独尝试不依赖于Bot项目）
 ### 挑战四：集成自定义视觉服务(Custom Vision)
 加入认知服务Custom Vision，完成物体识别，并使用SDK或者API集成到相应的应用程序中。
 ### 挑战五：使用Application Insight监测和管理Bot服务
