@@ -8,16 +8,16 @@
 ### 对话机器人和认知服务挑战需要的开发环境:
 
 *	Global Azure 订阅
-* LUIS(Language understading intelligence service)帐号 (与Azure订阅帐号保持一致即可)
+* LUIS(Language Understading Intelligence Service)帐号 (与Azure订阅帐号保持一致即可)
 * Skype 账号和客户端（免费申请）
-*	C# 或者 Node.js 的开发工具(对于基于Bot Build的开发二选一即可，后面的认知服务没有此限制)
+*	C# 或者 Node.js 的开发工具(对于基于Bot Build的开发二选一即可，而认知服务相关开发没有此限制)
 
 ### 使用LUIS创建一个查询航班的语义理解模型
 
-* 登陆 luis.ai 操作界面
-    * 创建一个航班&天气查询的APP
+* 登陆  <a href="https://www.luis.ai/home" target="_blank">luis.ai</a>操作界面
+    * 创建一个航班和天气查询的APP
     * 使用Intent, Entity, Phrase List 等功能实现基本功能
-    * 尝试Pattern，不同Entity类型（Composite，hierarchical 等）
+    * 尝试Pattern，不同Entity类型（Composite，Hierarchical 等）
     * 使用Test 页面进行测试
     * 发布URL测试，集成Azure订阅Key
   参考 [这里](#luis)
