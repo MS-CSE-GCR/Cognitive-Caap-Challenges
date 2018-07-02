@@ -33,7 +33,7 @@
     * 发布Skype应用，在SKype中完成对话
   参考 [这里](#bot)
 
-* 使用Bot SDK在本地创建
+* 使用Bot SDK在本地创建(需要有本地C#或者Nodejs开发环境)
     * 创建包含LUIS的Bot服务集成上一部做好的LUIS App，
     * 从互联网上的天气API，使用LUIS的识别结果作为参数，来获取天气数据
     * 使用Emulator进行测试
