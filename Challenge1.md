@@ -69,7 +69,7 @@
 
 ### Luis
 * LUIS官网 <a href="https://www.luis.ai/home" target="_blank">链接</a>
-* LUIS App创建及相关文档 <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/create-new-app" target="_blank">链接</a>
+* LUIS App创建及相关文档 <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-add-intents" target="_blank">链接</a>
 
 
 ### Bot
