@@ -12,7 +12,7 @@ Bot Framework 是微软公司所提供的简化编写对话机器人的框架，
 学习联接微软认知服务中的Speech Service中的Custom Speech以及Speaker Recognition 服务，可以集成在服务的前端或者后端 （本模块也可以单独尝试不依赖于Bot项目）
 ### 挑战四：集成自定义视觉服务(Custom Vision)
 加入认知服务Custom Vision，完成物体识别，并使用SDK或者API集成到相应的应用程序中。
-### 挑战五：使用Application Insight监测和管理Bot服务
+### 挑战五：使用Application Insight监测和管理应用服务
 在Bot应用中加入Application Insight对Bot服务进行监测，包括用户的数量，对话渠道，对话时间等信息。
 
 ## 参考
