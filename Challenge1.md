@@ -20,6 +20,7 @@
     * 尝试Pattern，不同Entity类型（Composite，Hierarchical 等）
     * 使用Test 页面进行测试
     * 发布URL测试，集成Azure订阅Key
+    
   参考 [这里](#luis)
 
 
@@ -31,6 +32,7 @@
     * 从互联网上的天气API，使用LUIS的识别结果作为参数，来获取天气数据
     * 使用Test 页面进行测试
     * 发布Skype应用，在SKype中完成对话
+    
   参考 [这里](#bot)
 
 * 使用Bot SDK在本地创建(需要有本地C#或者Nodejs开发环境)
@@ -40,6 +42,7 @@
     * 创建Azure App Service， 并将本地的应用程序发布到Azure App Service
     * 在Azure上创建 Bot Channel Service，将发布的App Serivce的bot程序关联到Bot Channel Service上
     * 发布Skype应用，在Skype中完成对话
+    
   参考 [这里](#bot)
 
 ## 成功标准
