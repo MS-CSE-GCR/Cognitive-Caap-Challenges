@@ -28,7 +28,9 @@
 关于训练数据的准备，可以参考 <a href="https://github.com/Microsoft/Cognitive-Custom-Speech-Service" target="_blank">custom speech 训练数据准备示例</a>
 
 **成功标准**
-* 每个团队成员都可以从Web App, Mobile App, 或者Windows App 中调用团队的Custom Speech Endpoint, 看看是否能是否特殊词汇，强调等，然后，也使用标准的Speech Service Endpoint 识别同样一段话，看看结果是否有区别。
+* 每个团队成员都可以从Web App, Mobile App, 或者Windows App 中调用团队的Custom Speech Endpoint, 看看是否能是否特殊词汇，强调等，然后，也使用标准的Speech Service Endpoint 识别同样一段话，看看结果是否有区别。这个有个Windows App 可以参考，请下载编译 <a href="https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/Windows/csharp_samples" target="_blank">Speech Service Windows app demo</a>
+
+在函数 RecognitionUsingCustomizedModelAsync， 请将Custom Speech 里的Subscription key 和 DeploymentId 输入在函数里。
 
 ## 挑战第二部分：
 语音具有独特的特征，可以用来识别一个人，就像指纹一样。将语音用作访问控制和身份验证场景的信号已经成为一种新型创新工具 - 基本上提供了安全级​​别，简化了客户的身份验证体验。这个挑战的部分，需要大家使用说话人识别辨识各个说话人，或将语音用作身份验证。
