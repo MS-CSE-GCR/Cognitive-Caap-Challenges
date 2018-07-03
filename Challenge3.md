@@ -20,11 +20,12 @@
 
 ## 挑战第一部分：
 您的挑战是创建一个定制化的语音服务(<a href="https://cris.ai/Home/CustomSpeechCustom" target="_blank"> Custom Speech Service</a>)，以识别特定的词语，发音方式或者声音环境和习惯。首先，选择要支持的语言，建议尝试英语和中文。参考<a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-customize-speech-models" target="_blank">如何创建自定义语音模型</a> 
-**目前，Acoustic Model 和 Pronunciation 还不持中文。** **Custom acoustic models support only US English (en-US). However, Chinese acoustic data sets can be imported for testing Chinese language models.Custom pronunciation supports only US English (en-US) and German (de-DE) at this time.**
 
 请先定义您的识别场景和特殊词汇，比如，我们会发现通用的语音识别服务识别特殊词汇 - "WeLink" 会识别成"We Link" 或者"Willing", 那么用户说 "Hello WeLink"， 就会识别成 "Hello Waiting" 或者 "Hello Willing" 等。 如果是中文就会是"华为威廉" 而不是"华为微联"。 那么下面我们就可以用Custom Speech 根据您定义的训练数据集进行特殊的Speech 模型的训练。 
 
 训练模型完成和测试后，发布custom endpoint (Rest API URL). 然后，使用您熟悉的开发语言，比如Java，C#，JS 等调用预测rest API (Predictive endpoint)来对不同的语音进行识别。同时，您也可以使用Speech SDK。 使用Custom Speech Endpoint 和标准的Speech Service REST API 和 SDK基本一样，只是需要替换标准Speech Endpoint。在SDK里面，除了YourSubscriptionKey 和YourServiceRegion，还需要将YourDeploymentId 填入到SDK中。请参考<a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/rest-apis#speech-to-text" target="_blank"> REST API</a> 和 <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-sdk" target="_blank"> Speech SDK</a>  
+
+关于训练数据的准备，可以参考 <a href="https://github.com/Microsoft/Cognitive-Custom-Speech-Service" target="_blank">custom speech 训练数据准备示例</a>
 
 **成功标准**
 * 每个团队成员都可以从Web App, Mobile App, 或者Windows App 中调用团队的Custom Speech Endpoint, 看看是否能是否特殊词汇，强调等，然后，也使用标准的Speech Service Endpoint 识别同样一段话，看看结果是否有区别。
