@@ -1,4 +1,4 @@
-# 挑战四：集成更多认知服务 - Custom Vision
+# 挑战四：集成自定义视觉服务(Custom Vision)
 
 ## 背景
 
