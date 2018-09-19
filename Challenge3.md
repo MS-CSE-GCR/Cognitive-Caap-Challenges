@@ -63,4 +63,4 @@
 
 * 自定义语音识别服务 (Custom Speech Service) <a href="https://cris.ai/" target="_blank">Portal</a>
 * 自定义语音识别服务 (Custom Speech Service)文档 <a href="https://docs.microsoft.com/zh-cn/azure/cognitive-services/speech-service/how-to-customize-speech-models" target="_blank">链接</a>
-* 自定义语音识别服务(Custom Speech Service) Windows App 例子 <a href="https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/Windows/csharp_samples" target="_blank">链接</a>
+* 自定义语音识别服务(Custom Speech Service) Windows App 例子 <a href="https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/samples" target="_blank">链接</a>
